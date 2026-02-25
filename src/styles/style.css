@@ -59,6 +59,12 @@ img {
     width: 100%;
 }
 
+.secao_conteudo {
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: var(--site-max-width);
+}
+
 /* navbar estilização */
 
 header .navbar {
