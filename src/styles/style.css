@@ -5,6 +5,38 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+
     font-family: "Poppins", sans-serif;
+}
+
+:root {
+    /* Cores */
+    --cor-branco: #ffff;
+    --cor-dark: #252525;
+    --cor-primaria: #3b141c;
+    --cor-secundaria: #f3961c;
+    --rosa-claro: #faf4f5;
+    --cinza-mediano: #ccc;
+
+    /* tamanhos de fonte */
+    --font-size-s: 0.9rem;
+    --font-size-n: 1rem;
+    --font-size-m: 1.12rem;
+    --font-size-l: 1.5rem;
+    --font-size-xl: 2rem;
+    --font-size-xx1: 2.3rem;
+
+    /* font weight */
+    --font-weight-normal: 400;
+    --font-weight-medio: 500;
+    --font-weight-semihold: 600;
+    --font-weight-bold: 700;
+
+    /* border radius */
+    --border-radius-s: 8px;
+    --border-radius-m: 30px;
+    --border-radius-circulo: 50%;
+
+    /* site max width */ 
+    --site-max-width: 1300px;
 }
