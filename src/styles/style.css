@@ -45,6 +45,10 @@ header {
     background: var(--cor-primaria);
 }
 
+.navbar .nav_logo .logo_texto {
+    color: var(--cor-branco);
+}
+
 .navbar .nav_menu .nav_link {
     color: var(--cor-branco);
 }
