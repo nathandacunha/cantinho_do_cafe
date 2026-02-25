@@ -59,14 +59,42 @@ img {
     width: 100%;
 }
 
+/* navbar estilização */
+
+header .navbar {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+
+    justify-content: space-between;
+}
+
 header {
     background: var(--cor-primaria);
 }
 
 .navbar .nav_logo .logo_texto {
     color: var(--cor-branco);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semihold);
+}
+
+.navbar .navbar_menu {
+    display: flex;
+    gap: 10px;
 }
 
 .navbar .nav_menu .nav_link {
+    padding: 10px 5px;
     color: var(--cor-branco);
+    font-size: var(--font-size-m);    
+    
+    border-radius: var(--border-radius-m);
+    transition: 0.3s ease;
+}
+
+.navbar .nav_menu .nav_link:hover {
+    color: var(--cor-primaria);
+    background: var(--cor-secundaria);
+
 }
