@@ -40,3 +40,7 @@
     /* site max width */ 
     --site-max-width: 1300px;
 }
+
+header {
+    background: var(--cor-primaria);
+}
