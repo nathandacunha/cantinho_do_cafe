@@ -135,3 +135,9 @@ header .navbar {
 
     font-weight: var(--font-weight-semihold);
 }
+
+.hero_section .hero_details .description {
+    max-width: 70%;
+    margin: 24px 0 40px;
+    font-size: var(--font-size-m);
+}
