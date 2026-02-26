@@ -70,7 +70,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 5;
-    
+
     background: var(--cor-primaria);
 }
 
@@ -120,4 +120,10 @@ header .navbar {
 
     color: var(--cor-branco);
     justify-content: space-between;
+}
+
+.hero_section .hero_details .title {
+    font-size: var(--font-size-xx1);
+    color: var(--cor-secundaria);
+    font-family: "Miniver", sans-serif;
 }
