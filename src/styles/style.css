@@ -127,3 +127,11 @@ header .navbar {
     color: var(--cor-secundaria);
     font-family: "Miniver", sans-serif;
 }
+
+.hero_section .hero_details .subtitle {
+    margin-top: 8px;
+    max-width: 70%;
+    font-size: var(--font-size-xl);
+
+    font-weight: var(--font-weight-semihold);
+}
