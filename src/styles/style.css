@@ -66,6 +66,13 @@ img {
 }
 
 /* navbar estilização */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    
+    background: var(--cor-primaria);
+}
 
 header .navbar {
     display: flex;
@@ -75,9 +82,6 @@ header .navbar {
     justify-content: space-between;
 }
 
-header {
-    background: var(--cor-primaria);
-}
 
 .navbar .nav_logo .logo_texto {
     color: var(--cor-branco);
@@ -107,4 +111,13 @@ header {
 .hero_section {
     min-height: 100vh;
     background: var(--cor-primaria);
+}
+
+.hero_section .secao_conteudo {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+
+    color: var(--cor-branco);
+    justify-content: space-between;
 }
