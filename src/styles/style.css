@@ -102,5 +102,9 @@ header {
 .navbar .nav_menu .nav_link:hover {
     color: var(--cor-primaria);
     background: var(--cor-secundaria);
+}
 
+.hero_section {
+    min-height: 100vh;
+    background: var(--cor-primaria);
 }
