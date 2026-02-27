@@ -159,10 +159,16 @@ header .navbar {
     transition: 0.3s ease;
 }
 
-.hero_section .hero_details .button:hover {
+.hero_section .hero_details .button:hover, .hero_section .hero_details .contact_us {
     color: var(--cor-branco);
     border-color: var(--cor-branco);
     background: transparent;
+}
+
+.hero_section .hero_details .contact_us:hover {
+    color: var(--cor-primaria);
+    border-color: var(--cor-secundaria);
+    background: var(--cor-secundaria);
 }
 
 .hero_section .hero_image_wrapper {
